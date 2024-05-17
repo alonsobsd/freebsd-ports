@@ -204,6 +204,7 @@
     SUBDIR += libfakekey
     SUBDIR += libfm
     SUBDIR += libfm-extra
+    SUBDIR += libfm-qt6
     SUBDIR += libfm-qt
     SUBDIR += libgnomekbd
     SUBDIR += libinput
