@@ -19,8 +19,8 @@ GH_ACCOUNT=	lxqt
 GH_PROJECT=	${PORTNAME:S/6//}
 GH_TAGNAME=     f348262
 
-USES=		cmake compiler:c++17-lang gnome kde:6 \
-		gettext-runtime localbase:ldflags perl5 pkgconfig qt:6 \
+USES=		cmake compiler:c++17-lang gnome kde:6 gettext-runtime \
+		localbase:ldflags lxqt:2 perl5 pkgconfig qt:6 \
 		tar:xz xorg
 USE_PERL5=	build
 USE_GNOME=	glib20
